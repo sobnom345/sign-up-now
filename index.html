@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="shortcut icon" href="img/sign up.png" type="image/x-icon">
+    <link rel="stylesheet" href="style & JS file/style.css">
+    <link rel="stylesheet" href="fonts-icon/style.css">
+</head>
+<body>
+    <section class="form-design">
+        <div class="container">
+            <div class="main">
+                <h2>Sign Up</h2>
+                <form class="form" id="form" action="" method="POST">
+                    <div class="full-name">
+                        <div class="form-control" id="first-control">
+                            <input type="text" placeholder="First Name" id="first">
+                            <div class="error-message">
+                                <span class="icon-error-icon"></span>
+                                <small>Error Message</small>
+                            </div>
+                        </div>
+                        <div class="form-control" id="last-control">
+                            <input type="text" placeholder="Last Name" id="last">
+                            <div class="error-message">
+                                <span class="icon-error-icon"></span>
+                                <small>Error Message</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-control" id="email-control">
+                        <input type="email" placeholder="Email" id="email">
+                        <div class="error-message">
+                            <span class="icon-error-icon"></span>
+                            <small>Error Message</small>
+                        </div>
+                    </div>
+                    <div class="form-control" id="password-control">
+                        <input type="password" placeholder="Password" id="password">
+                        <div class="error-message">
+                            <span class="icon-error-icon"></span>
+                            <small>Error Message</small>
+                        </div>
+                        <div class="background">
+                            <span class="icon-hiden-icon password-toggle" id="password-toggle"></span>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <input type="checkbox" id="terms" value="agree">
+                        <label for="terms">
+                            I agree to the <a href="user-agreement.html" target="_blank">User Agreement</a> and 
+                            <a href="privacy-policy.html" target="_blank">Privacy Policy</a>.
+                        </label>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p>Already have an account? <a href="sign-in.php">Sign In</a></p>
+                <div class="line"></div>
+                <div class="social-buttons">
+                    <div class="facebook">
+                        <button class="facebook-button" id="facebook">
+                            <span class="icon-facebook-icon facebook"></span>
+                            <span>Sign Up with Facebook</span>
+                        </button>
+                    </div>
+                    <div class="google">
+                        <button class="google-button" id="google">
+                            <span class="icon-google-icon google">
+                                <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+                            </span>
+                            <span class="google-txt">Sign Up with Google</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="by-clicking">
+                    <p>&copy; All created by <a href="https://www.freelancer.com/u/sobnommustery345" target="_blank">Sobnom Mustery M.</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="style & JS file/script.js"></script>
+</body>
+</html>
