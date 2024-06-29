@@ -96,7 +96,7 @@ body {
     position: relative;
 }
 
-.form-design .container .main .form .form-control {
+.form-design .container .main .form .form-control .background {
     position: absolute;
     top: 51%;
     right: 9px;
@@ -106,7 +106,7 @@ body {
     background-color: #fff;
 }
 
-.form-design .container .main .form .form-control img {
+.form-design .container .main .form .form-control .background img {
     width: 25px;
     height: 25px;
 }
