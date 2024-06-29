@@ -133,10 +133,10 @@ function formIsValid() {
 passwordToggle.addEventListener('click', function() {
     if (password.type === 'password') {
         password.type = 'text';
-        passwordToggle.src = 'icon/show-icon.svg';
+        passwordToggle.src = 'icon/show-icon.png';
     } else {
         password.type = 'password';
-        passwordToggle.src = 'icon/hide-icon.svg';
+        passwordToggle.src = 'icon/hide-icon.png';
     }
 });
 
