@@ -96,6 +96,16 @@ body {
     position: relative;
 }
 
+.form-design .container .main .form .form-control {
+    position: absolute;
+    top: 51%;
+    right: 9px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 1px;
+    background-color: #fff;
+}
+
 .form-design .container .main .form .form-control img {
     width: 25px;
     height: 25px;
